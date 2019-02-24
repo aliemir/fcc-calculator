@@ -1,0 +1,98 @@
+body {
+  background-color:#D7CCC8;
+}
+.small-info{
+  font-size: 8pt;
+  margin-top: -6px;
+  margin-bottom: -3px;
+}
+.calculator {
+  background-color:#BDBDBD;
+  height: 400px;
+  width: 260px;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #908b85;
+  border-radius: 4px;
+}
+.title {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #424242;
+}
+.inputBox {
+  width: 90%;
+  height: 65px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #b4b39d;
+  border-radius: 6px;
+  background-color: #c3c2ab;
+}
+.entry {
+  margin-right: 10px;
+  font-size: 30px;
+}
+.hist {
+  position: relative;
+  height: 10px;
+  bottom: 20px;
+  margin-right: 11px;
+  color: #8b8b7b;
+  font-size: 12px;
+}
+.buttons {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  position: absolute;
+  display: inline-block;
+  width: 280px;
+  height: auto;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+button {
+  border-radius: 50%;
+  border: none;
+  background-color: #3a3a3a;
+  margin: 0 5px 5px 8px;
+  height: 43px;
+  width: 43px;
+}
+.red {
+  background-color: #B71C1C;
+  color: #fff;
+}
+button:active {
+  transform: translate(0px, 2px);
+  box-shadow: none;
+}
+button,
+button:active,
+button:visited {
+  text-decoration: none !important;
+  outline: none !important;
+}
+button:hover{
+  background-color: #454545;
+}
+.zeroButton {
+  width: 104px;
+  border-radius: 10px;
+}
+.equalButton {
+  border-radius: 10px;
+  position: absolute;
+  margin-left: 11px;
+  margin-top: -45px;
+  height: 90px;
+  width:42px;
+}
+footer {
+  padding-top: 3px;
+  color: #424242;
+  margin-left: -35px;
+  font-size:0.6rem;
+}
